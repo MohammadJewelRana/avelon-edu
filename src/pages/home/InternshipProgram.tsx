@@ -1,7 +1,7 @@
 import {
   FaArrowRight,
   FaBriefcase,
-  FaCheckCircle,
+ 
   FaClock,
   FaDollarSign,
   FaGlobe,

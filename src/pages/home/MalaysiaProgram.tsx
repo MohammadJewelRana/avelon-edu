@@ -1,5 +1,5 @@
 import {
-  FaCheckCircle,
+ 
   FaGraduationCap,
   FaUniversity,
   FaPassport,
@@ -23,8 +23,7 @@ const subjects = [
 ];
 
 const MalaysiaProgram = () => {
-  const whatsappLink =
-    "https://wa.me/8801977005581?text=আসসালামু আলাইকুম, আমি Masters & PhD প্রোগ্রাম সম্পর্কে বিস্তারিত জানতে চাই।";
+ 
   return (
     <section>
       <div className="overflow-hidden rounded-3xl border border-amber-200 bg-white shadow-xl transition duration-300 hover:-translate-y-1 hover:shadow-2xl">

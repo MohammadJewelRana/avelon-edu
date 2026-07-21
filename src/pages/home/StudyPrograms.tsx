@@ -1,9 +1,9 @@
 import {
-  FaCheckCircle,
+ 
   FaGraduationCap,
   FaUniversity,
   FaPassport,
-  FaGlobeEurope,
+ 
   FaGlobeAsia,
 } from "react-icons/fa";
 
