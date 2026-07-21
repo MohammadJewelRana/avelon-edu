@@ -26,6 +26,9 @@ const countries = [
   },
 ];
 const StudyPrograms = () => {
+  const whatsappLink =
+    "https://wa.me/8801977005581?text=আসসালামু আলাইকুম, আমি Masters & PhD প্রোগ্রাম সম্পর্কে বিস্তারিত জানতে চাই।";
+
   return (
     <section className="space-y-6">
       {countries.map((item) => (
@@ -89,11 +92,14 @@ const StudyPrograms = () => {
               </div>
             </div>
 
-            <button
-              className={`w-full rounded-xl bg-${item.color}-600 py-4 text-lg font-bold text-white transition hover:bg-${item.color}-700`}
+            <a
+              href={whatsappLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`block w-full rounded-xl bg-${item.color}-600 py-4 text-center text-lg font-bold text-white transition hover:bg-${item.color}-700`}
             >
               এখনই আবেদন করুন
-            </button>
+            </a>
           </div>
         </div>
       ))}

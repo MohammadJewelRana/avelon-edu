@@ -23,6 +23,8 @@ const subjects = [
 ];
 
 const MalaysiaProgram = () => {
+  const whatsappLink =
+    "https://wa.me/8801977005581?text=আসসালামু আলাইকুম, আমি Masters & PhD প্রোগ্রাম সম্পর্কে বিস্তারিত জানতে চাই।";
   return (
     <section>
       <div className="overflow-hidden rounded-3xl border border-amber-200 bg-white shadow-xl transition duration-300 hover:-translate-y-1 hover:shadow-2xl">
@@ -110,10 +112,14 @@ const MalaysiaProgram = () => {
 
           {/* Service */}
 
-    
-          <button className="w-full rounded-xl bg-gradient-to-r from-orange-500 to-amber-500 py-4 text-lg font-bold text-white transition hover:scale-[1.02]">
+          <a
+            href="https://wa.me/8801977005581?text=আসসালামু%20আলাইকুম,%20আমি%20মালয়েশিয়ার%20Masters%20%26%20PhD%20Program%20সম্পর্কে%20বিস্তারিত%20জানতে%20চাই।"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block w-full rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 py-4 text-center text-lg font-bold text-white transition duration-300 hover:scale-[1.02] hover:from-amber-600 hover:to-orange-600"
+          >
             এখনই আবেদন করুন
-          </button>
+          </a>
         </div>
       </div>
     </section>
