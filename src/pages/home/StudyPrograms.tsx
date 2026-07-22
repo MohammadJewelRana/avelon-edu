@@ -44,10 +44,9 @@ const StudyPrograms = () => {
             {/* Header */}
 
             <div className={`${item.bg} px-6 py-5 text-white`}>
-              <div className="flex items-center gap-4">
-                <span className="text-5xl">{item.flag}</span>
-
-                <div>
+              <div className="flex items-center gap-4 justify-center">
+             
+                <div className="text-center">
                   <h2 className="text-3xl font-black">{item.country}</h2>
 
                   <p className="text-sm opacity-90">
@@ -83,7 +82,7 @@ const StudyPrograms = () => {
 
                 <div className="space-y-3">
 
-                  <div className="flex items-start gap-3 rounded-xl bg-slate-50 p-4">
+                  <div className="flex items-start gap-3 rounded-xl  ">
                     <FaGraduationCap className={`mt-1 ${item.accent}`} />
 
                     <p>
@@ -92,19 +91,19 @@ const StudyPrograms = () => {
                     </p>
                   </div>
 
-                  <div className="flex items-start gap-3 rounded-xl bg-slate-50 p-4">
+                  <div className="flex items-start gap-3 rounded-xl  ">
                     <FaUniversity className={`mt-1 ${item.accent}`} />
 
                     <p>{item.ielts}</p>
                   </div>
 
-                  <div className="flex items-start gap-3 rounded-xl bg-slate-50 p-4">
+                  <div className="flex items-start gap-3 rounded-xl ">
                     <FaPassport className={`mt-1 ${item.accent}`} />
 
                     <p>{item.bank}</p>
                   </div>
 
-                  <div className="flex items-start gap-3 rounded-xl bg-slate-50 p-4">
+                  <div className="flex items-start gap-3 rounded-xl ">
                     <FaGlobeAsia className={`mt-1 ${item.accent}`} />
 
                     <p>

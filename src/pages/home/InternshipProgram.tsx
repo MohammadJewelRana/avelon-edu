@@ -99,8 +99,7 @@ const InternshipProgram = () => {
           {/* Country */}
 
           <div className="mb-5 flex items-center gap-3">
-
-            <span className="text-5xl">{item.flag}</span>
+ 
 
             <div>
               <h3 className="text-2xl font-bold">

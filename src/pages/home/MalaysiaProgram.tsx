@@ -31,9 +31,9 @@ const MalaysiaProgram = () => {
 
         <div className="bg-gradient-to-r from-amber-500 to-orange-500 p-6 text-white">
           <div className="flex items-center gap-4">
-            <span className="text-6xl">🇲🇾</span>
+     
 
-            <div>
+            <div className="mx-auto">
               <h2 className="text-3xl font-black">মালয়েশিয়া</h2>
 
               <p className="mt-1 text-sm opacity-90">Masters & PhD Program</p>
@@ -67,22 +67,22 @@ const MalaysiaProgram = () => {
             </h3>
 
             <div className="space-y-3">
-              <div className="flex items-start gap-3 rounded-xl bg-slate-50 p-4">
+              <div className="flex items-start gap-3 rounded-xl ">
                 <FaGraduationCap className="mt-1 text-orange-500" />
                 <p>সর্বনিম্ন গ্র্যাজুয়েশন সম্পন্ন হলেই আবেদন করা যাবে।</p>
               </div>
 
-              <div className="flex items-start gap-3 rounded-xl bg-slate-50 p-4">
+              <div className="flex items-start gap-3 rounded-xl ">
                 <FaUniversity className="mt-1 text-orange-500" />
                 <p>IELTS প্রয়োজন নেই।</p>
               </div>
 
-              <div className="flex items-start gap-3 rounded-xl bg-slate-50 p-4">
+              <div className="flex items-start gap-3 rounded-xl ">
                 <FaPassport className="mt-1 text-orange-500" />
                 <p>ব্যাংক সাপোর্ট প্রয়োজন নেই।</p>
               </div>
 
-              <div className="flex items-start gap-3 rounded-xl bg-slate-50 p-4">
+              <div className="flex items-start gap-3 rounded-xl ">
                 <FaGlobeAsia className="mt-1 text-orange-500" />
                 <p>১০০% ভিসা প্রসেসিং সাপোর্ট প্রদান করা হবে।</p>
               </div>

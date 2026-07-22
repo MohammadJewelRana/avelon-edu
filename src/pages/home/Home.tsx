@@ -35,8 +35,8 @@ const Home = () => {
 
           <MalaysiaProgram />
 
-          <InternshipProgram />
-          <FloatingSocial />
+           <InternshipProgram />
+          <FloatingSocial /> 
         </div>
       </div>
     </div>
