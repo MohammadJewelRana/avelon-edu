@@ -3,7 +3,7 @@ import { FaFacebookF, FaWhatsapp } from "react-icons/fa";
 const whatsappLink =
   "https://wa.me/8801712345678?text=আসসালামু আলাইকুম, আমি আপনার স্টাডি প্রোগ্রাম সম্পর্কে জানতে চাই।";
 
-const facebookLink = "https://www.facebook.com/your-page";
+const facebookLink = "https://www.facebook.com/profile.php?id=61580335493258";
 
 const FloatingSocial = () => {
   return (
