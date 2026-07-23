@@ -70,7 +70,7 @@ const InternshipProgram = () => {
         </div>
 
         {/* Cards */}
-        <div className="grid grid-cols-1 gap-6 p-6 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-6 p-2 md:p-6 md:grid-cols-2 lg:grid-cols-3">
           {internshipCountries.map((item) => {
             const whatsappLink = `https://wa.me/8801977005581?text=${encodeURIComponent(
               `আসসালামু আলাইকুম, আমি ${item.country} এর ${item.title} সম্পর্কে বিস্তারিত জানতে চাই।`
@@ -100,7 +100,7 @@ const InternshipProgram = () => {
                 </div>
 
                 {/* Content */}
-                <div className="flex flex-1 flex-col p-6">
+                <div className="flex flex-1 flex-col p-3">
                   {/* Country */}
                   <div className="mb-6">
                     <h3 className="text-3xl font-black text-slate-800">
