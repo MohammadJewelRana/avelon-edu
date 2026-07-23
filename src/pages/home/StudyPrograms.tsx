@@ -12,7 +12,7 @@ const countries = [
     flag: "https://flagcdn.com/w80/gr.png",
     program: "Honours & Masters Program",
     image:
-      "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=1200&auto=format&fit=crop&q=80",
+      "https://www.eduopinions.com/wp-content/uploads/2026/04/Athens-University-of-Economics-and-Business-Best-Places-to-Study-Greece.jpg",
     bg: "bg-blue-600",
     hover: "hover:bg-blue-700",
     accent: "text-blue-600",
@@ -34,7 +34,7 @@ graduation:
     flag: "https://flagcdn.com/w80/cy.png",
     program: "Honours & Masters Program",
     image:
-      "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&w=1200&q=80",
+      "https://static.aeccglobal.com/cyprus_4a6c95f311.png",
     bg: "bg-red-600",
     hover: "hover:bg-red-700",
     accent: "text-red-600",
@@ -56,7 +56,7 @@ graduation:
     flag: "https://flagcdn.com/w80/cz.png",
     program: "Honours & Masters Program",
     image:
-      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200&auto=format&fit=crop&q=80",
+      "https://careergyan.co/images/blogs/study-in-czech/Czech-Republic-Student-Visa-Requirements.png",
     bg: "bg-emerald-600",
     hover: "hover:bg-emerald-700",
     accent: "text-emerald-600",
@@ -99,7 +99,7 @@ const StudyPrograms = () => {
     />
 
     <div className="text-center sm:text-left">
-      <h2 className="text-3xl font-black tracking-wide sm:text-4xl md:text-5xl">
+      <h2 className=" font-black tracking-wide text-5xl md:text-5xl">
         {item.country}
       </h2>
 

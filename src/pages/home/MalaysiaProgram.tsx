@@ -137,7 +137,7 @@ const MalaysiaProgram = () => {
 
             <div className="w-full shrink-0 lg:w-[380px]">
               <img
-                src="https://images.unsplash.com/photo-1596422846543-75c6fc197f07?auto=format&fit=crop&w=400&q=8"
+                src="https://media.sciencephoto.com/c0/01/19/50/c0011950-800px-wm.jpg"
                 alt="Students Studying"
                 className="h-[420px] w-full rounded-[30px] object-cover shadow-2xl transition duration-500 hover:scale-[1.03]"
               />
