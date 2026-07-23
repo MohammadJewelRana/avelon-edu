@@ -158,8 +158,8 @@ const InternshipProgram = () => {
                     rel="noopener noreferrer"
                     className="mt-8 flex w-full items-center justify-center gap-2 rounded-xl bg-green-600 py-4 text-lg font-bold text-white transition duration-300 hover:scale-[1.02] hover:bg-green-700"
                   >
-                    WhatsApp এ যোগাযোগ করুন
-                    <FaArrowRight />
+                  এখনই WhatsApp করুন
+         
                   </a>
                 </div>
               </div>
