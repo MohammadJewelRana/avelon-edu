@@ -30,7 +30,8 @@ const Home = () => {
             একসাথে পান।
           </p>
         </div>
-        <div className="grid grid-cols-1 gap-8 xl:grid-cols-3">
+        <div className=" ">
+        {/* <div className="grid grid-cols-1 gap-8 xl:grid-cols-3"> */}
           <StudyPrograms />
 
           <MalaysiaProgram />
