@@ -13,7 +13,7 @@ const internshipCountries = [
     country: "হংকং",
     title: "হোটেল ম্যানেজমেন্ট ইন্টার্নশিপ",
     image:
-      "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
     duration: "৬ মাস",
     salary: "৮,৫০০ HKD / মাস",
     requirement: "চলমান (Running) শিক্ষার্থী",
@@ -25,7 +25,7 @@ const internshipCountries = [
     country: "থাইল্যান্ড",
     title: "টিচিং ইন্টার্নশিপ",
     image:
-      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1200&q=80",
     duration: "৬ - ১২ মাস",
     salary: "২,৫০০ - ৩,৫০০ Thai Baht / মাস",
     requirement: "গ্র্যাজুয়েশন সম্পন্ন",
@@ -37,7 +37,7 @@ const internshipCountries = [
     country: "ফিজি",
     title: "হোটেল ম্যানেজমেন্ট ইন্টার্নশিপ",
     image:
-      "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1200&q=80",
     duration: "৬ - ১২ মাস",
     salary: "৭৫,০০০ - ৯০,০০০ টাকা / মাস",
     requirement: "গ্র্যাজুয়েশন সম্পন্ন",
@@ -45,7 +45,6 @@ const internshipCountries = [
     visa: "ইন্টার্নশিপ ভিসা",
   },
 ];
-
 const InternshipProgram = () => {
   return (
     <section>
