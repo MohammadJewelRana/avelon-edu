@@ -2,6 +2,7 @@ import FloatingSocial from "./FloatingSocial";
 import InternshipProgram from "./InternshipProgram";
 import MalaysiaProgram from "./MalaysiaProgram";
 import StudyPrograms from "./StudyPrograms";
+import VisaServices from "./VisaServices";
 
 const Home = () => {
   return (
@@ -40,6 +41,8 @@ const Home = () => {
 
            <InternshipProgram />
           <FloatingSocial /> 
+
+          <VisaServices/>
         </div>
       </div>
     </div>

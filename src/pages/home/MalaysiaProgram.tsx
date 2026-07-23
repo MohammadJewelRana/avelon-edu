@@ -2,7 +2,7 @@ import {
   FaGraduationCap,
   FaUniversity,
   FaPassport,
-  FaBookOpen,
+ 
   FaGlobeAsia,
 } from "react-icons/fa";
 
