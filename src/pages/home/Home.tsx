@@ -7,8 +7,8 @@ import logo from "../../assets/logo.jpg";
 
 const Home = () => {
   return (
-    <main className="overflow-x-hidden bg-gradient-to-b from-white via-red-50/30 to-yellow-50/30">
-      <div className="mx-auto max-w-7xl px-4 py-8 md:px-6 lg:px-8">
+    <main className="overflow-x-hidden ">
+      <div className="mx-auto max-w-7xl px-4 pt-8 md:px-6 lg:px-8">
 
         {/* Hero Header */}
         <section className="mb-16 text-center">

@@ -52,12 +52,12 @@ const touristCountries = [
 
 const VisaServices = () => {
   return (
-    <section className="bg-gradient-to-b from-white via-red-50/30 to-yellow-50/40  rounded-2xl  mt-12">
+    <section className=" bg-white rounded-2xl  mt-12">
       <div className="mx-auto w-full px-4">
 
         {/* Heading */}
 
-        <div className="mb-14 text-center">
+        <div className=" text-center">
           <span className="inline-flex rounded-full bg-red-100 px-5 py-2 text-sm font-semibold text-red-600">
             🌍 আন্তর্জাতিক ভিসা সেবা
           </span>
