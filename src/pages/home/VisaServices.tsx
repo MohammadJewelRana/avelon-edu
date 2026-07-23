@@ -52,7 +52,7 @@ const touristCountries = [
 
 const VisaServices = () => {
   return (
-    <section className="bg-gradient-to-b from-white via-red-50/30 to-yellow-50/40 py-12">
+    <section className="bg-gradient-to-b from-white via-red-50/30 to-yellow-50/40 py-12 rounded-2xl  mt-12">
       <div className="mx-auto w-full px-4">
 
         {/* Heading */}
