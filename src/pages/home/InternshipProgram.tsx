@@ -14,7 +14,7 @@ const internshipCountries = [
     title: "হোটেল ম্যানেজমেন্ট ইন্টার্নশিপ",
     image:
       "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=80",
-    duration: "৬ মাস",
+    duration: "৬ - ১২ মাস",
     salary: "৮,৫০০ HKD / মাস",
     requirement: "চলমান (Running) শিক্ষার্থী",
     gap: "সর্বোচ্চ ৩ বছরের স্টাডি গ্যাপ গ্রহণযোগ্য",

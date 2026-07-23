@@ -7,52 +7,56 @@ import {
 
 const countries = [
   {
-    id: 1,
-    country: "সাইপ্রাস",
-    program: "Masters & PhD Program",
-  image:
-      "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&w=1200&q=80",
-    bg: "bg-red-600",
-    hover: "hover:bg-red-700",
-    accent: "text-red-600",
-
-    title: "🎓 মাস্টার্স ও পিএইচডি ভর্তি চলছে",
-    description:
-      "খুবই স্বল্প খরচে Masters এবং PhD প্রোগ্রামে আবেদন করার সুযোগ।",
-
-    graduation: "সর্বনিম্ন গ্র্যাজুয়েশন সম্পন্ন হতে হবে।",
-    ielts: "সর্বনিম্ন IELTS ৫.০ স্কোর প্রয়োজন।",
-    bank: "ব্যাংক সাপোর্ট প্রয়োজন নেই।",
-    visa: "১০০% ভিসা প্রসেসিং সাপোর্ট প্রদান করা হবে।",
-  },
-
-  {
     id: 2,
     country: "গ্রীস",
-    program: "Masters & PhD Program",
-      image:
+    flag: "https://flagcdn.com/w80/gr.png",
+    program: "Honours & Masters Program",
+    image:
       "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=1200&auto=format&fit=crop&q=80",
     bg: "bg-blue-600",
     hover: "hover:bg-blue-700",
     accent: "text-blue-600",
 
-    title: "🎓 মাস্টার্স ও পিএইচডি ভর্তি চলছে",
+    title: "🎓 অনার্স ও মাস্টার্স ভর্তি চলছে",
     description:
-      "স্বল্প খরচে Masters এবং PhD প্রোগ্রামে ভর্তি হওয়ার সুযোগ।",
+      "Honours এবং Masters প্রোগ্রামে সহজ ও দ্রুত ভর্তি।",
 
-    graduation: "সর্বনিম্ন গ্র্যাজুয়েশন সম্পন্ন হতে হবে।",
+graduation:
+  "Bachelor (Honours) প্রোগ্রামের জন্য SSC ও HSC সম্পন্ন হতে হবে এবং Masters প্রোগ্রামের জন্য Bachelor's Degree সম্পন্ন হতে হবে।",
     ielts: "সর্বনিম্ন IELTS ৫.৫ স্কোর প্রয়োজন।",
     bank: "ব্যাংক সাপোর্ট প্রয়োজন।",
     visa: "১০০% ভিসা প্রসেসিং সাপোর্ট প্রদান করা হবে।",
   },
 
   {
+    id: 1,
+    country: "সাইপ্রাস",
+    flag: "https://flagcdn.com/w80/cy.png",
+    program: "Honours & Masters Program",
+    image:
+      "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&w=1200&q=80",
+    bg: "bg-red-600",
+    hover: "hover:bg-red-700",
+    accent: "text-red-600",
+
+    title: "🎓 অনার্স ও মাস্টার্স ভর্তি চলছে",
+    description:
+      "Honours এবং Masters প্রোগ্রামে সহজ ও দ্রুত ভর্তি।",
+
+graduation:
+  "Bachelor (Honours) প্রোগ্রামের জন্য SSC ও HSC সম্পন্ন হতে হবে এবং Masters প্রোগ্রামের জন্য Bachelor's Degree সম্পন্ন হতে হবে।",
+    ielts: "সর্বনিম্ন IELTS ৫.০ স্কোর প্রয়োজন।",
+    bank: "ব্যাংক সাপোর্ট প্রয়োজন নেই।",
+    visa: "১০০% ভিসা প্রসেসিং সাপোর্ট প্রদান করা হবে।",
+  },
+
+  {
     id: 3,
     country: "চেক রিপাবলিক",
+    flag: "https://flagcdn.com/w80/cz.png",
     program: "Honours & Masters Program",
-   image:
+    image:
       "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200&auto=format&fit=crop&q=80",
-    
     bg: "bg-emerald-600",
     hover: "hover:bg-emerald-700",
     accent: "text-emerald-600",
@@ -60,12 +64,13 @@ const countries = [
     title: "🎓 অনার্স ও মাস্টার্স ভর্তি চলছে",
     description:
       "Honours এবং Masters প্রোগ্রামে সহজ ও দ্রুত ভর্তি।",
-       ielts: "IELTS প্রয়োজন নেই।",
 
+    ielts: "IELTS প্রয়োজন নেই।",
+    bank: "ব্যাংক সাপোর্ট।",
     graduation:
       "Undergraduate অথবা Graduate শিক্ষার্থীরা আবেদন করতে পারবেন।",
 
-    visa: "১০০% Admission Support প্রদান করা হবে।",
+    visa:   "ডকুমেন্ট Legalization ও Attestation-এর সম্পূর্ণ সাপোর্ট প্রদান করা হবে।",
   },
 ];
 const StudyPrograms = () => {
@@ -83,11 +88,27 @@ const StudyPrograms = () => {
           >
             {/* Header */}
 
-            <div className={`${item.bg} px-6 py-6 text-center text-white`}>
-              <h2 className="text-5xl font-black">{item.country}</h2>
+    <div
+  className={`${item.bg} px-5 py-6 sm:px-8 sm:py-8 text-white`}
+>
+  <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
+    <img
+      src={item.flag}
+      alt={item.country}
+      className="h-14 w-14 rounded-xl border-4 border-white object-cover shadow-xl sm:h-16 sm:w-16 md:h-20 md:w-20"
+    />
 
-              <p className="mt-2 text-2xl font-bold">{item.program}</p>
-            </div>
+    <div className="text-center sm:text-left">
+      <h2 className="text-3xl font-black tracking-wide sm:text-4xl md:text-5xl">
+        {item.country}
+      </h2>
+
+      <p className="mt-2 text-base font-semibold opacity-95 sm:text-lg md:text-2xl">
+        {item.program}
+      </p>
+    </div>
+  </div>
+</div>
 
             {/* Body */}
 
@@ -120,47 +141,58 @@ const StudyPrograms = () => {
                   আবেদনের যোগ্যতা
                 </h3>
 
-                <div className="space-y-4">
-                  {item.graduation && (
-                    <div className="flex items-start gap-3">
-                      <FaGraduationCap
-                        className={`mt-1 ${item.accent}`}
-                      />
+ <div className="space-y-5">
+  {item.graduation && (
+    <div className="flex items-start gap-3">
+      <FaGraduationCap
+        className={`mt-1 h-5 w-5 shrink-0 ${item.accent}`}
+      />
 
-                      <p>{item.graduation}</p>
-                    </div>
-                  )}
+      <p className="leading-7 text-gray-700">
+        {item.graduation}
+      </p>
+    </div>
+  )}
 
-                  {item.ielts && (
-                    <div className="flex items-start gap-3">
-                      <FaUniversity
-                        className={`mt-1 ${item.accent}`}
-                      />
+  {item.ielts && (
+    <div className="flex items-start gap-3">
+      <FaUniversity
+        className={`mt-1 h-5 w-5 shrink-0 ${item.accent}`}
+      />
 
-                      <p>{item.ielts}</p>
-                    </div>
-                  )}
+      <p className="leading-7 text-gray-700">
+        {item.ielts}
+      </p>
+    </div>
+  )}
 
-                  {item.bank && (
-                    <div className="flex items-start gap-3">
-                      <FaPassport
-                        className={`mt-1 ${item.accent}`}
-                      />
+  {item.bank && (
+    <div className="flex items-start gap-3">
+      <FaPassport
+        className={`mt-1 h-5 w-5 shrink-0 ${item.accent}`}
+      />
 
-                      <p>{item.bank}</p>
-                    </div>
-                  )}
+      <p className="leading-7 text-gray-700">
+        {item.bank}
+      </p>
+    </div>
+  )}
 
-                  {item.visa && (
-                    <div className="flex items-start gap-3">
-                      <FaGlobeAsia
-                        className={`mt-1 ${item.accent}`}
-                      />
+ 
+  {item.visa && (
+    <div className="flex items-start gap-3">
+      <FaGlobeAsia
+        className={`mt-1 h-5 w-5 shrink-0 ${item.accent}`}
+      />
 
-                      <p>{item.visa}</p>
-                    </div>
-                  )}
-                </div>
+      <p className="leading-7 text-gray-700">
+        {item.visa}
+      </p>
+    </div>
+  )}
+</div>
+
+
               </div>
 
               {/* Button */}
