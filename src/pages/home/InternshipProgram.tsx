@@ -1,7 +1,6 @@
 import {
   FaArrowRight,
   FaBriefcase,
- 
   FaClock,
   FaDollarSign,
   FaGlobe,
@@ -11,204 +10,164 @@ import {
 const internshipCountries = [
   {
     id: 1,
-    flag: "🇭🇰",
     country: "হংকং",
     title: "হোটেল ম্যানেজমেন্ট ইন্টার্নশিপ",
+    image:
+      "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1200&q=80",
     duration: "৬ মাস",
     salary: "৮,৫০০ HKD / মাস",
     requirement: "চলমান (Running) শিক্ষার্থী",
     gap: "সর্বোচ্চ ৩ বছরের স্টাডি গ্যাপ গ্রহণযোগ্য",
     visa: "ইন্টার্নশিপ ভিসা",
-    benefits: [
-      "আন্তর্জাতিক হোটেলে কাজের সুযোগ",
-      "৬ মাসের পেইড ইন্টার্নশিপ",
-      "বাসস্থান সহায়তা (প্রতিষ্ঠানভেদে)",
-      "ক্যারিয়ার গঠনের সুযোগ",
-    ],
   },
   {
     id: 2,
-    flag: "🇹🇭",
     country: "থাইল্যান্ড",
     title: "টিচিং ইন্টার্নশিপ",
+    image:
+      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80",
     duration: "৬ - ১২ মাস",
     salary: "২,৫০০ - ৩,৫০০ Thai Baht / মাস",
     requirement: "গ্র্যাজুয়েশন সম্পন্ন",
     gap: "স্টাডি গ্যাপ গ্রহণযোগ্য",
     visa: "ইন্টার্নশিপ ভিসা",
-    benefits: [
-      "আন্তর্জাতিক স্কুলে কাজের সুযোগ",
-      "ইংরেজি শিক্ষাদানের অভিজ্ঞতা",
-      "ক্যারিয়ার উন্নয়নের সুযোগ",
-      "ভিসা প্রসেসিং সহায়তা",
-    ],
   },
   {
     id: 3,
-    flag: "🇫🇯",
     country: "ফিজি",
     title: "হোটেল ম্যানেজমেন্ট ইন্টার্নশিপ",
+    image:
+      "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1200&q=80",
     duration: "৬ - ১২ মাস",
     salary: "৭৫,০০০ - ৯০,০০০ টাকা / মাস",
     requirement: "গ্র্যাজুয়েশন সম্পন্ন",
     gap: "স্টাডি গ্যাপ গ্রহণযোগ্য",
     visa: "ইন্টার্নশিপ ভিসা",
-    benefits: [
-      "আন্তর্জাতিক রিসোর্টে কাজের সুযোগ",
-      "হ্যান্ডস-অন ট্রেনিং",
-      "থাকা ও খাবারের সুবিধা (প্রতিষ্ঠানভেদে)",
-      "আন্তর্জাতিক অভিজ্ঞতা অর্জনের সুযোগ",
-    ],
   },
 ];
 
 const InternshipProgram = () => {
   return (
-<section>
-  <div className="overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-xl">
+    <section>
+      <div className="overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-xl">
+        {/* Header */}
 
-    {/* Header */}
-
-    <div className="bg-gradient-to-r from-violet-600 to-indigo-700 p-6 text-white">
-      <div className="flex items-center gap-3">
-        <FaBriefcase className="text-4xl" />
-
-        <div>
-          <h2 className="text-3xl font-black">
-            ইন্টার্নশিপ প্রোগ্রাম
-          </h2>
-
-          <p className="mt-1 opacity-90">
-            আন্তর্জাতিক প্রতিষ্ঠানে পেইড ইন্টার্নশিপের সুযোগ
-          </p>
-        </div>
-      </div>
-    </div>
-
-    {/* Cards */}
-
-    <div className="space-y-5 p-6">
-
-      {internshipCountries.map((item) => (
-
-        <div
-          key={item.id}
-          className="rounded-2xl border border-slate-200 bg-slate-50 p-5 transition duration-300 hover:-translate-y-1 hover:shadow-xl"
-        >
-
-          {/* Country */}
-
-          <div className="mb-5 flex items-center gap-3">
- 
+        <div className="bg-gradient-to-r from-violet-600 to-indigo-700 p-6 text-white">
+          <div className="flex items-center justify-center gap-4">
+            <FaBriefcase className="text-4xl" />
 
             <div>
-              <h3 className="text-2xl font-bold">
-                {item.country}
-              </h3>
+              <h2 className="text-3xl font-black">
+                ইন্টার্নশিপ প্রোগ্রাম
+              </h2>
 
-              <p className="font-medium text-indigo-600">
-                {item.title}
+              <p className="mt-1 text-white/90">
+                আন্তর্জাতিক প্রতিষ্ঠানে Paid Internship-এর সুযোগ
               </p>
             </div>
-
           </div>
-
-          {/* Information */}
-
-          <div className="space-y-3">
-
-            <div className="flex items-center gap-3">
-              <FaClock className="text-indigo-600" />
-
-              <span>
-                <b>ইন্টার্নশিপ:</b> {item.duration}
-              </span>
-            </div>
-
-            <div className="flex items-center gap-3">
-              <FaDollarSign className="text-green-600" />
-
-              <span>
-                <b>সম্মানী:</b> {item.salary}
-              </span>
-            </div>
-
-            <div className="flex items-center gap-3">
-              <FaUserGraduate className="text-blue-600" />
-
-              <span>
-                <b>যোগ্যতা:</b> {item.requirement}
-              </span>
-            </div>
-
-            <div className="flex items-center gap-3">
-              <FaUserGraduate className="text-orange-500" />
-
-              <span>
-                <b>স্টাডি গ্যাপ:</b> {item.gap}
-              </span>
-            </div>
-
-            <div className="flex items-center gap-3">
-              <FaGlobe className="text-red-500" />
-
-              <span>
-                <b>ভিসা:</b> {item.visa}
-              </span>
-            </div>
-
-          </div>
-
-          {/* Benefits */}
-
-          {/* <div className="mt-5 rounded-xl bg-white p-4">
-
-            <h4 className="mb-3 font-bold text-slate-800">
-              সুবিধাসমূহ
-            </h4>
-
-            <div className="space-y-2">
-
-              {item.benefits.map((benefit) => (
-
-                <div
-                  key={benefit}
-                  className="flex items-center gap-2"
-                >
-                  <FaCheckCircle className="text-green-600" />
-
-                  <span className="text-sm">
-                    {benefit}
-                  </span>
-                </div>
-
-              ))}
-
-            </div>
-
-          </div> */}
-
-          {/* WhatsApp Button */}
-
-          <a
-            href={`https://wa.me/8801977005581?text=${encodeURIComponent(
-              `আসসালামু আলাইকুম, আমি ${item.country} এর ${item.title} সম্পর্কে বিস্তারিত জানতে চাই।`
-            )}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-5 flex w-full items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-indigo-600 to-violet-600 py-3 font-bold text-white transition duration-300 hover:scale-[1.02]"
-          >
-            বিস্তারিত জানুন
-            <FaArrowRight />
-          </a>
-
         </div>
 
-      ))}
+        {/* Cards */}
 
-    </div>
-  </div>
-</section>
+        <div className="grid grid-cols-1 gap-6 p-6 md:grid-cols-2 lg:grid-cols-3">
+          {internshipCountries.map((item) => {
+            const whatsappLink = `https://wa.me/8801977005581?text=${encodeURIComponent(
+              `আসসালামু আলাইকুম, আমি ${item.country} এর ${item.title} সম্পর্কে বিস্তারিত জানতে চাই।`
+            )}`;
+
+            return (
+              <div
+                key={item.id}
+                className="flex h-full flex-col overflow-hidden rounded-3xl border border-slate-200 bg-slate-50 shadow-md transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
+              >
+                {/* Image */}
+
+                <div className="overflow-hidden">
+                  <img
+                    src={item.image}
+                    alt={item.country}
+                    className="h-56 w-full object-cover transition duration-500 hover:scale-110"
+                  />
+                </div>
+
+                {/* Content */}
+
+                <div className="flex flex-1 flex-col p-6">
+                  {/* Country */}
+
+                  <div className="mb-6">
+                    <h3 className="text-3xl font-black text-slate-800">
+                      {item.country}
+                    </h3>
+
+                    <p className="mt-2 text-lg font-semibold text-indigo-600">
+                      {item.title}
+                    </p>
+                  </div>
+
+                  {/* Information */}
+
+                  <div className="flex-1 space-y-4">
+                    <div className="flex items-start gap-3">
+                      <FaClock className="mt-1 text-indigo-600" />
+
+                      <span>
+                        <b>ইন্টার্নশিপ:</b> {item.duration}
+                      </span>
+                    </div>
+
+                    <div className="flex items-start gap-3">
+                      <FaDollarSign className="mt-1 text-green-600" />
+
+                      <span>
+                        <b>সম্মানী:</b> {item.salary}
+                      </span>
+                    </div>
+
+                    <div className="flex items-start gap-3">
+                      <FaUserGraduate className="mt-1 text-blue-600" />
+
+                      <span>
+                        <b>যোগ্যতা:</b> {item.requirement}
+                      </span>
+                    </div>
+
+                    <div className="flex items-start gap-3">
+                      <FaUserGraduate className="mt-1 text-orange-500" />
+
+                      <span>
+                        <b>স্টাডি গ্যাপ:</b> {item.gap}
+                      </span>
+                    </div>
+
+                    <div className="flex items-start gap-3">
+                      <FaGlobe className="mt-1 text-red-500" />
+
+                      <span>
+                        <b>ভিসা:</b> {item.visa}
+                      </span>
+                    </div>
+                  </div>
+
+                  {/* Button */}
+
+                  <a
+                    href={whatsappLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-8 flex w-full items-center justify-center gap-2 rounded-xl bg-green-600 py-4 text-lg font-bold text-white transition duration-300 hover:scale-[1.02] hover:bg-green-700"
+                  >
+                    WhatsApp এ যোগাযোগ করুন
+                    <FaArrowRight />
+                  </a>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </section>
   );
 };
 

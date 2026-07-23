@@ -33,8 +33,10 @@ const Home = () => {
         <div className=" ">
         {/* <div className="grid grid-cols-1 gap-8 xl:grid-cols-3"> */}
           <StudyPrograms />
+<div className="py-12">
 
           <MalaysiaProgram />
+</div>
 
            <InternshipProgram />
           <FloatingSocial /> 

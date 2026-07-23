@@ -34,9 +34,9 @@ const MalaysiaProgram = () => {
      
 
             <div className="mx-auto">
-              <h2 className="text-3xl font-black">মালয়েশিয়া</h2>
+              <h2 className="text-5xl font-black">মালয়েশিয়া</h2>
 
-              <p className="mt-1 text-sm opacity-90">Masters & PhD Program</p>
+              <p className="mt-1 text-xl  ">Masters & PhD Program</p>
             </div>
           </div>
         </div>
@@ -61,34 +61,45 @@ const MalaysiaProgram = () => {
 
           {/* Highlight */}
 
-          <div>
-            <h3 className="mb-4 text-xl font-bold text-slate-800">
-              আবেদনের যোগ্যতা
-            </h3>
+     <div className="flex flex-col-reverse items-center gap-8 md:flex-row">
+  {/* Left Content */}
+  <div className="flex-1">
+    <h3 className="mb-4 text-xl font-bold text-slate-800">
+      আবেদনের যোগ্যতা
+    </h3>
 
-            <div className="space-y-3">
-              <div className="flex items-start gap-3 rounded-xl ">
-                <FaGraduationCap className="mt-1 text-orange-500" />
-                <p>সর্বনিম্ন গ্র্যাজুয়েশন সম্পন্ন হলেই আবেদন করা যাবে।</p>
-              </div>
+    <div className="space-y-4">
+      <div className="flex items-start gap-3">
+        <FaGraduationCap className="mt-1 text-xl text-orange-500" />
+        <p>সর্বনিম্ন গ্র্যাজুয়েশন সম্পন্ন হলেই আবেদন করা যাবে।</p>
+      </div>
 
-              <div className="flex items-start gap-3 rounded-xl ">
-                <FaUniversity className="mt-1 text-orange-500" />
-                <p>IELTS প্রয়োজন নেই।</p>
-              </div>
+      <div className="flex items-start gap-3">
+        <FaUniversity className="mt-1 text-xl text-orange-500" />
+        <p>IELTS প্রয়োজন নেই।</p>
+      </div>
 
-              <div className="flex items-start gap-3 rounded-xl ">
-                <FaPassport className="mt-1 text-orange-500" />
-                <p>ব্যাংক সাপোর্ট প্রয়োজন নেই।</p>
-              </div>
+      <div className="flex items-start gap-3">
+        <FaPassport className="mt-1 text-xl text-orange-500" />
+        <p>ব্যাংক সাপোর্ট প্রয়োজন নেই।</p>
+      </div>
 
-              <div className="flex items-start gap-3 rounded-xl ">
-                <FaGlobeAsia className="mt-1 text-orange-500" />
-                <p>১০০% ভিসা প্রসেসিং সাপোর্ট প্রদান করা হবে।</p>
-              </div>
-            </div>
-          </div>
+      <div className="flex items-start gap-3">
+        <FaGlobeAsia className="mt-1 text-xl text-orange-500" />
+        <p>১০০% ভিসা প্রসেসিং সাপোর্ট প্রদান করা হবে।</p>
+      </div>
+    </div>
+  </div>
 
+  {/* Right Image */}
+  <div className="w-full md:w-80 lg:w-96 shrink-0">
+    <img
+      src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=900&q=80"
+      alt="Study Abroad Student"
+      className="h-64 w-full rounded-3xl object-cover shadow-xl transition duration-500 hover:scale-105"
+    />
+  </div>
+</div>
           {/* Subjects */}
 
           <div className="rounded-2xl bg-slate-50 p-5">
@@ -117,7 +128,7 @@ const MalaysiaProgram = () => {
             rel="noopener noreferrer"
             className="block w-full rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 py-4 text-center text-lg font-bold text-white transition duration-300 hover:scale-[1.02] hover:from-amber-600 hover:to-orange-600"
           >
-            এখনই আবেদন করুন
+                     এখনই WhatsApp করুন
           </a>
         </div>
       </div>
